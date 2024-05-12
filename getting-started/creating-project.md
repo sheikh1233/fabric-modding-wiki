@@ -56,8 +56,10 @@ To create a project using the MCDev project wizard, press "New Project" on the "
 
 You'll want to select the "Minecraft" generator in the left sidebar.
 
-Make sure that you have selected "Mod" for the Platform Type toggle, "Fabric" for the loader toggle, and that a Java 17 JDK is selected at the bottom:
+Make sure that you have selected "Mod" for the Platform Type toggle, and "Fabric" for the loader toggle. If you are developing for 1.18-1.20.4 use Java 17:
 
 ![](./_assets/creating-a-project_0.png)
+
+If developing for 1.16.5 and below, use Java 8, and for 1.20.5 and up use Java 21.
 
 Click "Create" to start the project creation process - this may take a few minutes, don't close the IDE or cancel during this process or you will have to delete the folder your project was created in and restart!
